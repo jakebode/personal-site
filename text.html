@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <style>
+        .flex-container{
+        display:flex;
+        flex-direction:row;
+        border:2px blue solid;
+      }
+      
+      .flex-container > span{
+        flex-grow:1; 
+      }
+      
+      .flex-container > .flex-item{
+        border:2px red solid;
+        flex-grow:0;
+        width:15%;
+      }
+    </style>
+    <title>test</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">flex item 1</div>
+        <span></span>
+        <div class="flex-item">flex item 2</div>
+        <div class="flex-item">flex item 3</div> 
+      </div>
+</div>
+</body>
+</html>

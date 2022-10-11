@@ -1,0 +1,177 @@
+@font-face {
+    font-family: cordataFont;
+    src: url("fonts/Cordata_PPC-400.woff");
+}
+
+@font-face {
+    font-family: amstradFont;
+    src: url("fonts/Amstrad_PC-2y.woff");
+}
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.top-bar {
+    display: grid;
+    grid-template-columns: 60% 30% 10%;
+    background-color: white;
+    overflow: hidden;
+
+    position: fixed;
+    width: 99%;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    font-family: amstradFont;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px #bbbbbb;
+    letter-spacing: 0.075em;
+    text-decoration: none;
+}
+
+/* About page label */
+.home {
+    border: 2px solid white;
+    background-color: #6F00FF;
+}
+
+.home:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: #6F00FF;
+    text-shadow: 1px 1px black;
+}
+
+/* About page label */
+.about {
+    border: 2px solid white;
+    background-color: #FF9900;
+}
+
+.about:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: #FF9900;
+    text-shadow: 1px 1px black;
+}
+
+/* Projects page label */
+.projects {
+    border: 2px solid white;
+    background-color: #0015FF;
+}
+
+.projects:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: #0015FF;
+    text-shadow: 1px 1px black;
+}
+
+/* Reflection page label */
+.reflection {
+    border: 2px solid white;
+    background-color: #FF0000;
+}
+
+.reflection:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: #FF0000;
+    text-shadow: 1px 1px black;
+}
+
+/* Contact page label */
+.contact {
+    border: 2px solid white;
+    background-color: #59FF00;
+}
+
+.contact:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: #59FF00;
+    text-shadow: 1px 1px black;
+}
+
+/* Name and buttons */
+.title {
+    margin: auto;
+    font-family: cordataFont;
+    text-shadow: 1px 1px #bbbbbb;
+    font-size: 2.75em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    height: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border: 2px solid white;
+}
+
+.resize-img1 {
+    width: 40px;
+    height: 40px;
+}
+
+.invert-image {
+    filter: invert(100%);
+}
+
+
+.content {
+    padding: 100px 10% 50px 10%;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: cordataFont;
+    font-size: 3em;
+}
+
+.prof-pic {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    height: 20%;
+}
+
+.parag {
+    display: flex;
+    flex-direction: row;
+    font-family: cordataFont;
+
+    color: #CFCFCF;
+}
