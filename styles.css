@@ -135,3 +135,22 @@
 
     color: #CFCFCF;
 }
+
+/* CONTACT PAGE */
+.email-form {
+    margin: 0 10% 10% 10%;
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    padding: 3px 0 10px 0;
+    font-family: cordataFont;
+    font-size: 25px;
+}
+
+input[type="text"], input[type="email"], textarea[type="text"] {
+    background-color: #222;
+    color: white;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea[type="text"]:focus {
+    background-color: #555;
+}
