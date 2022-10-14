@@ -14,6 +14,7 @@
     --color-2: #0015FF;
     --color-3: #FF0000;
     --color-4: #59FF00;
+    --border-color: #000;
 }
 
 /* NAV BAR CLASSES */
@@ -107,24 +108,24 @@
 .content {
     background-color: black;
     color: white;
+    height: 100%;
+    width: 100%;
+    border: solid 15px var(--border-color);
+    position: absolute;
 }
 
 /* ABOUT PAGE */
 .page-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    padding: 50px 0 20px 0;
     color: white;
     font-family: cordataFont;
-    font-size: 3em;
+    font-size: 80px;
 }
 
-.prof-pic {
-    display: flex;
-    flex-direction: row;
-    width: 15%;
-    height: 20%;
+.bio {
+    margin: 20px 6% 6% 6%;
+    font-family: cordataFont;
+    font-size: 30px;
 }
 
 .parag {
