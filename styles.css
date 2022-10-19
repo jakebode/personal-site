@@ -40,6 +40,8 @@
     letter-spacing: 0.075em;
     text-decoration: none;
     margin: 0 50px 0 50px;
+    text-align: center;
+    width: 100%;
 }
 
 /* About page nav link */
@@ -95,9 +97,8 @@
 }
 
 .icon {
-    background-color: black;
-    margin: 0 20px 0 20px;
-    height: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .invert-image {
@@ -113,6 +114,16 @@
     border: solid 15px var(--border-color);
     position: absolute;
 }
+
+/* HOME PAGE */
+.box-content {
+    width: 98.5%;
+    height: 97.5%;
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    margin: 10px 10px 10px 10px;
+}
+
 
 /* ABOUT PAGE */
 .page-title {

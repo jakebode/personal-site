@@ -16,3 +16,6 @@ function changeBorderColor() {
 }
 
 changeBorderColor()
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
